@@ -22,11 +22,11 @@ class Person:
         print("Имя:", self.__name, "\tВозраст:", self.__age)
 
 
-tom = Person("Alex")
-tom.display_info()
+p1 = Person("Alex")
+p1.display_info()
 print(tom.age)
-tom.age = -486
-tom.age = 36
+p1.age = -486
+p1.age = 36
 
 
-tom.display_info()
+p1.display_info()
