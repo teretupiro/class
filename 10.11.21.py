@@ -1,7 +1,7 @@
 class Person:
     def __init__(self, name):
-        self.__name = name  # устанавливаем имя
-        self.__age = 1  # устанавливаем возраст
+        self.__name = name  
+        self.__age = 1  
 
     @property
     def age(self):
