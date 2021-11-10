@@ -22,7 +22,7 @@ class Person:
         print("Имя:", self.__name, "\tВозраст:", self.__age)
 
 
-tom = Person("Tom")
+tom = Person("Alex")
 tom.display_info()
 print(tom.age)
 tom.age = -486
